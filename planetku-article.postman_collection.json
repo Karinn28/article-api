@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "8390bbb5-60aa-4085-bfa7-a3227b1c48de",
+		"name": "planetku-article",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9586598",
+		"_collection_link": "https://medit-imk-uyee.postman.co/workspace/New-Team-Workspace~e68f9279-9140-4375-bf1a-f0af1b206e92/collection/9586598-8390bbb5-60aa-4085-bfa7-a3227b1c48de?action=share&source=collection_link&creator=9586598"
+	},
+	"item": [
+		{
+			"name": "Get All Article",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8081/api/getAllArticles",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"getAllArticles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Latest Article",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8081/api/getLatestArticles",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"getLatestArticles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Article By Title",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8081/api/getArticleWithKey/Kesebelas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"getArticleWithKey",
+						"Kesebelas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Article By Slug",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8081/api/getArticleWithKey/judul-artikel-keenam",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"getArticleWithKey",
+						"judul-artikel-keenam"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
