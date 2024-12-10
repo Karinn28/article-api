@@ -62,5 +62,5 @@ func main() {
 		articleRoutes.GET("/showArticle/:slug", articleController.ShowArticle)
 	}
 
-	r.Run(":8081")
+	r.Run(":8080")
 }

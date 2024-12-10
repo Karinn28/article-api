@@ -13,7 +13,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8081/api/getAllArticles",
+					"raw": "http://127.0.0.1:8080/api/getAllArticles",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -21,7 +21,7 @@
 						"0",
 						"1"
 					],
-					"port": "8081",
+					"port": "8080",
 					"path": [
 						"api",
 						"getAllArticles"
@@ -36,7 +36,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8081/api/getLatestArticles",
+					"raw": "http://127.0.0.1:8080/api/getLatestArticles",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -44,7 +44,7 @@
 						"0",
 						"1"
 					],
-					"port": "8081",
+					"port": "8080",
 					"path": [
 						"api",
 						"getLatestArticles"
@@ -59,7 +59,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8081/api/getArticleWithKey/Kesebelas",
+					"raw": "http://127.0.0.1:8080/api/getArticleWithKey/Kesebelas",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -67,7 +67,7 @@
 						"0",
 						"1"
 					],
-					"port": "8081",
+					"port": "8080",
 					"path": [
 						"api",
 						"getArticleWithKey",
@@ -83,7 +83,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8081/api/getArticleWithKey/judul-artikel-keenam",
+					"raw": "http://127.0.0.1:8080/api/getArticleWithKey/judul-artikel-keenam",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -91,7 +91,7 @@
 						"0",
 						"1"
 					],
-					"port": "8081",
+					"port": "8080",
 					"path": [
 						"api",
 						"getArticleWithKey",
